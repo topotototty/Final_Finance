@@ -21,7 +21,7 @@
         </Grid.ColumnDefinitions>
         <DatePicker x:Name="Date" Grid.ColumnSpan="2" HorizontalAlignment="Center"
                     VerticalAlignment="Center" Width="400" Height="50" 
-                    FontFamily="Lucida Console" FontSize="24" Foreground="#FFEDEDED"></DatePicker>
+                    FontFamily="Lucida Console" FontSize="24" Foreground="#FFEDEDED" SelectedDateChanged="Date_SelectedDateChanged"></DatePicker>
         <StackPanel Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
             <TextBox x:Name="createNewNote" Text="Имя записи" Foreground="#FFEDEDED" FontFamily="Lucida Console" TextAlignment="Center" FontSize="14" Height="40"></TextBox>
             <ComboBox x:Name="typeOfNotes" Height="40" Text="Выберите тип записи" Foreground="#FFEDEDED"></ComboBox>
@@ -32,14 +32,14 @@
         </StackPanel>
         <StackPanel Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
             <Button x:Name="Add" Grid.Row="1" Grid.Column="1" BorderThickness="0,0,0,0" Width="300" 
-                    Content="Добавить" Foreground="#FFD2D2D2" FontWeight="Bold"></Button>
+                    Content="Добавить" Foreground="#FFD2D2D2" FontWeight="Bold" Click="Add_Click"></Button>
             <Button x:Name="Delete" Grid.Row="1" Grid.Column="1" BorderThickness="0,0,0,0" Width="300" 
-                    Content="Удалить" Foreground="#FFD2D2D2" FontWeight="Bold" Margin="5"></Button>
+                    Content="Удалить" Foreground="#FFD2D2D2" FontWeight="Bold" Margin="5" Click="Delete_Click"></Button>
             <Button x:Name="Change" Grid.Row="1" Grid.Column="1" BorderThickness="0,0,0,0" Width="300" 
-                    Content="Изменить " Foreground="#FFD2D2D2" FontWeight="Bold"></Button>
+                    Content="Изменить " Foreground="#FFD2D2D2" FontWeight="Bold" Click="Change_Click"></Button>
         </StackPanel>
         <StackPanel Grid.Row="1" Grid.RowSpan="2">
-            <DataGrid x:Name="notesList" Grid.Row="1" Grid.RowSpan="2" Margin="20" Height="270" IsReadOnly="True" AutoGenerateColumns="False">
+            <DataGrid x:Name="notesList" Grid.Row="1" Grid.RowSpan="2" Margin="20" Height="270" IsReadOnly="True" AutoGenerateColumns="False" SelectionChanged="notesList_SelectionChanged">
                 <DataGrid.Columns>
                     <DataGridTextColumn Binding="{Binding Path = Name}" Header="Название" Width="1*"/>
                     <DataGridTextColumn Binding="{Binding Path = Type}" Header="Тип" Width="1*"/>
@@ -47,7 +47,7 @@
                     <DataGridCheckBoxColumn Binding="{Binding Path = isIncrease}" Header="Приход?" Width="1*"/>
                 </DataGrid.Columns>
             </DataGrid>
-            <TextBlock Margin="10" Height="25" Width="200" Text="Итог: " Foreground="#FFD2D2D2" FontSize="14" FontWeight="Bold" HorizontalAlignment="Center"/>
+            <TextBlock x:Name="Balance" Margin="10" Height="25" Width="200" Text="Итог: " Foreground="#FFD2D2D2" FontSize="14" FontWeight="Bold" HorizontalAlignment="Center"/>
         </StackPanel>
         
     </Grid>

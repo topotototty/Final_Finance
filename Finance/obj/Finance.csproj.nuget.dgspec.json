@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\futbo\\source\\repos\\Finance\\Finance\\Finance.csproj": {}
+    "C:\\Users\\futbo\\OneDrive\\Рабочий стол\\Новая папка (3)\\Finance\\Finance.csproj": {}
   },
   "projects": {
-    "C:\\Users\\futbo\\source\\repos\\Finance\\Finance\\Finance.csproj": {
+    "C:\\Users\\futbo\\OneDrive\\Рабочий стол\\Новая папка (3)\\Finance\\Finance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\futbo\\source\\repos\\Finance\\Finance\\Finance.csproj",
+        "projectUniqueName": "C:\\Users\\futbo\\OneDrive\\Рабочий стол\\Новая папка (3)\\Finance\\Finance.csproj",
         "projectName": "Finance",
-        "projectPath": "C:\\Users\\futbo\\source\\repos\\Finance\\Finance\\Finance.csproj",
+        "projectPath": "C:\\Users\\futbo\\OneDrive\\Рабочий стол\\Новая папка (3)\\Finance\\Finance.csproj",
         "packagesPath": "C:\\Users\\futbo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\futbo\\source\\repos\\Finance\\Finance\\obj\\",
+        "outputPath": "C:\\Users\\futbo\\OneDrive\\Рабочий стол\\Новая папка (3)\\Finance\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\futbo\\AppData\\Roaming\\NuGet\\NuGet.Config",

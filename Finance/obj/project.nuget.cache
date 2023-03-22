@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oI0eJn4E9g9lUlc7CDuSk2p2bWXzSSGIErmQI6i3Yzf03DV5qOClfW1XYi+5ZniGvHqb6l9mabkFia1ploHMZw==",
+  "dgSpecHash": "hxWC1CT+QqaxaNvAZ0Aemf7hMiA0/KyPCJqX+V7yQ5E3QUcS2ZBWm1YrIRLv1QZy+4w/scpIQYVn3szKl8isGQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\futbo\\source\\repos\\Finance\\Finance\\Finance.csproj",
+  "projectFilePath": "C:\\Users\\futbo\\OneDrive\\Рабочий стол\\Новая папка (3)\\Finance\\Finance.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\futbo\\.nuget\\packages\\materialdesigncolors\\2.1.2\\materialdesigncolors.2.1.2.nupkg.sha512",
     "C:\\Users\\futbo\\.nuget\\packages\\materialdesignthemes\\4.8.0\\materialdesignthemes.4.8.0.nupkg.sha512",

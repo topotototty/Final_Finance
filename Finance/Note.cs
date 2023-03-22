@@ -14,12 +14,14 @@ namespace Finance
         public string Name { get; set; }
         public string Type { get; set; }
         public double Money { get; set; }
-        bool isIncrease { get; set; }
-        public Note(string name, string type, double money, bool isIncrease)
+        public bool isIncrease { get; set; }
+        public DateTime date { get; set; }
+        public Note(string name, string type, double money, DateTime date, bool isIncrease )
         {
             Name = name;
             Type = type;
             Money = money;
+            this.date = date;
             this.isIncrease = isIncrease;
         }
         public static void Serialize(BindingList<Note> notes)
